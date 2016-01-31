@@ -8,7 +8,7 @@ module MetaInspector
     # * connection_timeout: defaults to 20 seconds
     # * read_timeout: defaults to 20 seconds
     # * retries: defaults to 3 times
-    # * html_content_type_only: if an exception should be raised if request
+    # * html_content_only: if an exception should be raised if request
     #   content-type is not text/html. Defaults to false.
     # * allow_redirections: when true, follow HTTP redirects. Defaults to true
     # * document: the html of the url as a string
